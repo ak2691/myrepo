@@ -113,7 +113,11 @@ int main()
   cout << "word count: " << countWords(source) << '\n';
   cout << "Unique word count: " << UniqueWords(source) << "\n";
   cout << "Lexical density: " << LexicalDensity(source) << "%" << "\n";
-
+  cout << "test";
+  cout << "testone";
+  cout << "test";
+  cout << "test2";
+  //comment
 
 	
 
