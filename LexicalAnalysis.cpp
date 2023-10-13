@@ -75,7 +75,7 @@ int UniqueWords(string& str) {
     
     else if(str[i] == '.' || str[i] == ' '){
       
-    
+    //testing
       if(strHolder.find(" " + word + " ") == string::npos &&  word != "" && aWord) {
         
         strHolder = strHolder + " " + word + " ";
@@ -108,7 +108,7 @@ int main()
 
   
   
-
+  cout << "hello";
 	cout << "substring count: " << countSubstring(source, "is")        << '\n';
   cout << "word count: " << countWords(source) << '\n';
   cout << "Unique word count: " << UniqueWords(source) << "\n";
